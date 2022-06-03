@@ -11,7 +11,7 @@ st.image(Image.open('dp.png'), width=150)
     
 st.title('Chanin Nantasenamat, Ph.D.')
 
-st.write('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 
 st.markdown("""
 <a href='https://www.youtube.com/dataprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">YouTube channel</a>
