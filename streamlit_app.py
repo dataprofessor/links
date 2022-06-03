@@ -15,4 +15,6 @@ st.info('Developer Advocate, Content Creator and ex-Professor with an interest i
 
 st.markdown("""
 <a href='https://www.youtube.com/dataprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">YouTube channel</a>
+<a href='https://data-professor.medium.com/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Twitter</a>
+
 """, unsafe_allow_html=True)
