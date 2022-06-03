@@ -18,4 +18,5 @@ st.markdown("""
 <a href='https://www.youtube.com/codingprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Coding Professor YouTube channel</a>
 <a href='https://data-professor.medium.com/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Read my Blogs</a>
 <a href='https://twitter.com/thedataprof' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on Twitter</a>
+<a href='https://www.linkedin.com/in/chanin-nantasenamat/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on LinkedIn</a>
 """, unsafe_allow_html=True)
