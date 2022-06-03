@@ -14,7 +14,7 @@ st.title('Chanin Nantasenamat, Ph.D.')
 st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 
 st.markdown("""
-<a href='https://www.youtube.com/dataprofessor' class="btn btn-primary btn-lg btn-block" type="button" aria-pressed="true">Data Professor YouTube channel</a>
+<a href='https://www.youtube.com/dataprofessor' class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">Data Professor YouTube channel</a>
 <a href='https://www.youtube.com/codingprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Coding Professor YouTube channel</a>
 <a href='https://data-professor.medium.com/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Read my Blogs</a>
 <a href='https://twitter.com/thedataprof' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on Twitter</a>
