@@ -1,2 +1,0 @@
-streamlit
-click==8
