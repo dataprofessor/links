@@ -15,10 +15,10 @@ st.info('Developer Advocate, Content Creator and ex-Professor with an interest i
 
 st.markdown("""
 <a href='https://www.youtube.com/dataprofessor' class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">Data Professor YouTube channel</a>
-<a href='https://www.youtube.com/codingprofessor' class="btn btn-outline-primary btn-lg btn-block active" role="button" aria-pressed="true">Coding Professor YouTube channel</a>
-<a href='https://data-professor.medium.com/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Read my Blogs</a>
-<a href='https://twitter.com/thedataprof' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on Twitter</a>
-<a href='https://www.linkedin.com/in/chanin-nantasenamat/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on LinkedIn</a>
-<a href='https://sendfox.com/dataprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Sign up for my Newsletter</a>
-<a href='https://www.buymeacoffee.com/dataprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Buy me a Coffee</a>
+<a href='https://www.youtube.com/codingprofessor' class="btn btn-outline-primary btn-lg btn-block active" type="button" aria-pressed="true">Coding Professor YouTube channel</a>
+<a href='https://data-professor.medium.com/' class="btn btn-outline-primary btn-lg btn-block active" type="button" aria-pressed="true">Read my Blogs</a>
+<a href='https://twitter.com/thedataprof' class="btn btn-outline-primary btn-lg btn-block active" type="button" aria-pressed="true">Follow me on Twitter</a>
+<a href='https://www.linkedin.com/in/chanin-nantasenamat/' class="btn btn-outline-primary btn-lg btn-block active" type="button" aria-pressed="true">Follow me on LinkedIn</a>
+<a href='https://sendfox.com/dataprofessor' class="btn btn-outline-primary btn-lg btn-block active" type="button" aria-pressed="true">Sign up for my Newsletter</a>
+<a href='https://www.buymeacoffee.com/dataprofessor' class="btn btn-outline-primary btn-lg btn-block active" type="button" aria-pressed="true">Buy me a Coffee</a>
 """, unsafe_allow_html=True)
