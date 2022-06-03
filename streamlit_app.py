@@ -20,4 +20,5 @@ st.markdown("""
 <a href='https://twitter.com/thedataprof' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on Twitter</a>
 <a href='https://www.linkedin.com/in/chanin-nantasenamat/' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Follow me on LinkedIn</a>
 <a href='https://sendfox.com/dataprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Sign up for my Newsletter</a>
+<a href='https://www.buymeacoffee.com/dataprofessor' class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Buy me a Coffee</a>
 """, unsafe_allow_html=True)
