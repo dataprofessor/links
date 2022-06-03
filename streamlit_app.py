@@ -5,6 +5,8 @@ import webbrowser
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
+st.image(Image.open('dp.png'), width=150)
+    
 st.title('Chanin Nantasenamat, Ph.D.')
 
 st.write('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
