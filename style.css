@@ -14,10 +14,6 @@
     font-weight: bold;
 }
 
-h2 {
-    text-align:center;
-}
-
 MainMenu {
     visibility: hidden;
 }
