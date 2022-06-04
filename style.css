@@ -6,7 +6,7 @@ h1 {
     text-align:center;
 }
 
-#MainMenu {
+MainMenu {
     visibility: hidden;
 }
 footer {
