@@ -1,8 +1,9 @@
 .css-1v0mbdj.etr89bj1 {
     display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 250px;
+    max-width: 100%;
 }
 
 h1 {
