@@ -15,10 +15,6 @@
     text-align: center;
 }
 
-p {
-  margin-top: -5em;
-}
-
 MainMenu {
     visibility: hidden;
 }
