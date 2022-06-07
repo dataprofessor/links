@@ -22,7 +22,7 @@ def st_button(icon, url, label):
             </svg>  
             {label}
         </a>'''
-     return st.write(button_code)
+    return st.write(button_code)
 
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel')
 
