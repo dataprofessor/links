@@ -26,6 +26,8 @@ def st_button(icon, url, label):
 
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel')
 
+st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel')
+
 
 st.markdown("""
 <a href='https://www.youtube.com/dataprofessor' class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
