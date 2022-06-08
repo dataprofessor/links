@@ -89,7 +89,4 @@ st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs')
 st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter')
 st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn')
 st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter')
-
-st.markdown("""
-<a href='https://www.buymeacoffee.com/dataprofessor' class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">Buy me a Coffee</a>
-""", unsafe_allow_html=True)
+st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee')
