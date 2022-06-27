@@ -1,3 +1,5 @@
+import streamlit
+
 def st_button(icon, url, label, iconsize):
     if icon == 'youtube':
         button_code = f'''
