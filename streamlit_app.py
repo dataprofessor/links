@@ -3,6 +3,8 @@ from st_functions import st_button
 from PIL import Image
 import webbrowser
 
+load_css()
+
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.png'))
 
