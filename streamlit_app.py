@@ -11,7 +11,7 @@ st.header('Chanin Nantasenamat, Ph.D.')
 
 st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 
-button_font_size = 24
+button_font_size = 14
 
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', button_font_size)
 st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', button_font_size)
