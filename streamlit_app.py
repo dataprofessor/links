@@ -9,7 +9,7 @@ col2.image(Image.open('dp.png'))
 
 st.header('Chanin Nantasenamat, Ph.D.')
 
-st.info('# Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('## Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 
 icon_size = 20
 
