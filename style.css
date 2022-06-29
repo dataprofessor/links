@@ -19,6 +19,7 @@
     text-align: center;
 }
 
+p {font-size:x-large;} 
 
 MainMenu {
     visibility: hidden;
