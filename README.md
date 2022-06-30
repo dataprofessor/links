@@ -62,4 +62,4 @@ st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTub
 
 After a few moments your new `links page` should be accessible at https://share.streamlit.io/{your-username}/{newly-created-repo}
 
-In an upcoming release of Streamlit Cloud, you will be able to customize the URL address to https://{custom-name--here}.streamlitapp.com/
+In an upcoming release of Streamlit Cloud, you will be able to customize the URL address to https://{custom-name--here}.streamlitapp.com/ such as the one that I've created at https://chanin.streamlitapp.com/
