@@ -10,9 +10,9 @@
 
 Getting your own Streamlit `links page` up and running is really easy, just follow the following steps:
 
-Step 1. [Click here](https://github.com/dataprofessor/links/generate) to generate a copy of this repository. Next, name your new repository to anything you'd like except for `your username`.github.io
+**Step 1**. [Click here](https://github.com/dataprofessor/links/generate) to generate a copy of this repository. Next, name your new repository to anything you'd like except for `your username`.github.io
 
-Step 2. Customize the contents of the newly generated `links page` by editing the `streamlit_app.py` file:
+**Step 2**. Customize the contents of the newly generated `links page` by editing the `streamlit_app.py` file:
 
 ```python
 import streamlit as st
@@ -58,6 +58,6 @@ Example:
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
 ```
 
-Step 3. Deploy to [Streamlit Cloud](https://streamlit.io/cloud). Log-in and click on the **New app** button. Choose the newly generated repo from Steps 1-2. Finally click on the **Deploy!** button. 
+**Step 3**. Deploy to [Streamlit Cloud](https://streamlit.io/cloud). Log-in and click on the **New app** button. Choose the newly generated repo from Steps 1-2. Finally click on the **Deploy!** button. 
 
 After a few moments your new `links page` should be accessible at https://share.streamlit.io/your-username/newly-created-repo
