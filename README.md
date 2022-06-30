@@ -33,6 +33,6 @@ st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee
 ```
 
 There are 3 key information that you can modify:
-1. `st.header('Your name')`
-2. `st.info('A quick description about who you are, what you do, etc.')`
-3. `st.button(A, B, C, D)` where **A** represents the icon to display (use `youtube` if the play button is to be displayed), **B** represents the URL, **C** represents the message to display on the clickable button and **D** represents the icon size.
+1. `st.header(A)` is used for specifying your name in place of **A**.
+2. `st.info(B)` is used for speciying a quick description about who you are, what you do, etc. in place of **B**.
+3. `st.button(A, B, C, D)` is a custom function for creating link buttons where **A** represents the icon to display (use `youtube` if the play button is to be displayed), **B** represents the URL, **C** represents the message to display on the clickable button and **D** represents the icon size.
