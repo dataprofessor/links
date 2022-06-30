@@ -2,6 +2,10 @@
 
 > A Streamlit app that you can build for free to store all your personal links that is similar in functionality to that of [Linktr.ee](https://linktr.ee/).
 
+## Demo app
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chanin.streamlitapp.com/)
+
 # Setting up
 
 Getting your own Streamlit `links page` up and running is really easy, just follow the following steps:
