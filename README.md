@@ -2,7 +2,7 @@
 
 > A Streamlit app that you can build for free to store all your personal links that is similar in functionality to that of [Linktr.ee](https://linktr.ee/).
 
-# Setting up a Streamlit `links page`
+# Setting up
 
 Getting your own Streamlit `links page` up and running is really easy, just follow the following steps:
 
@@ -54,4 +54,6 @@ Example:
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
 ```
 
-Step 3. Deploy to [Streamlit Cloud](https://streamlit.io/cloud)
+Step 3. Deploy to [Streamlit Cloud](https://streamlit.io/cloud). Log-in and click on the **New app** button. Choose the newly generated repo from Steps 1-2. Finally click on the **Deploy!** button. 
+
+After a few moments your new `links page` should be accessible at https://share.streamlit.io/your-username/newly-created-repo
