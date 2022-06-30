@@ -52,7 +52,7 @@ Example:
 st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 ```
 
-3. `st.button(A, B, C, D)` is a custom function for creating link buttons where **A** represents the icon to display (use `youtube` if the play button is to be displayed), **B** represents the URL, **C** represents the message to display on the clickable button and **D** represents the icon size.
+3. `st.button(D, E, F, G)` is a custom function for creating link buttons where **A** represents the icon to display (use `youtube` if the play button is to be displayed), **B** represents the URL, **C** represents the message to display on the clickable button and **D** represents the icon size.
 Example:
 ```python
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
