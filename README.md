@@ -36,14 +36,19 @@ st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee
 There are 3 key information that you can modify:
 1. `st.header(A)` is used for specifying your name in place of **A**.
 Example:
-```
+```python
 st.header('Chanin Nantasenamat, Ph.D.')
 ```
 
 2. `st.info(B)` is used for speciying a quick description about who you are, what you do, etc. in place of **B**.
 Example:
-```
+```python
 st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 ```
 
 3. `st.button(A, B, C, D)` is a custom function for creating link buttons where **A** represents the icon to display (use `youtube` if the play button is to be displayed), **B** represents the URL, **C** represents the message to display on the clickable button and **D** represents the icon size.
+Example:
+```python
+st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
+```
+
