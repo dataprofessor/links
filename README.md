@@ -2,7 +2,9 @@
 
 > A Streamlit app that you can build for free to store all your personal links that is similar in functionality to that of [Linktr.ee](https://linktr.ee/).
 
-<img src="23F54497-245E-413F-99C7-F3E295E4EA13.png" width="400" align="middle">
+<p style="text-align:center;">
+  <img src="23F54497-245E-413F-99C7-F3E295E4EA13.png" width="400" align="middle">
+</p>
 
 # Demo app
 
