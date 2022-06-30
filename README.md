@@ -6,7 +6,7 @@
 
 Getting your own Streamlit `links page` up and running is really easy, just follow the following steps:
 1. [Click here](https://github.com/dataprofessor/links/generate) to generate a copy of this repository. Next, name your new repository to anything you'd like except for `your username`.github.io
-2. Customize the newly generated `links page` by editing the `streamlit_app.py` file:
+2. Customize the contents of the newly generated `links page` by editing the `streamlit_app.py` file:
 ```python
 import streamlit as st
 from st_functions import st_button, load_css
@@ -32,3 +32,7 @@ st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Ne
 st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
 ```
 
+There are 3 key information that you can modify:
+1. `st.header('Your name')`
+2. `st.info('A quick description about who you are, what you do, etc.')`
+3. `st.button(A, B, C, D)` where **A** represents the icon to display (use `youtube` if the play button is to be displayed), **B** represents the URL, **C** represents the message to display on the clickable button and **D** represents the icon size.
