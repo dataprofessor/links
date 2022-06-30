@@ -2,11 +2,13 @@
 
 > A Streamlit app that you can build for free to store all your personal links that is similar in functionality to that of [Linktr.ee](https://linktr.ee/).
 
-# Getting started
+# Setting up a Streamlit `links page`
 
 Getting your own Streamlit `links page` up and running is really easy, just follow the following steps:
-1. [Click here](https://github.com/dataprofessor/links/generate) to generate a copy of this repository. Next, name your new repository to anything you'd like except for `your username`.github.io
-2. Customize the contents of the newly generated `links page` by editing the `streamlit_app.py` file:
+
+Step 1. [Click here](https://github.com/dataprofessor/links/generate) to generate a copy of this repository. Next, name your new repository to anything you'd like except for `your username`.github.io
+
+Step 2. Customize the contents of the newly generated `links page` by editing the `streamlit_app.py` file:
 
 ```python
 import streamlit as st
@@ -52,3 +54,4 @@ Example:
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
 ```
 
+Step 3. Deploy to [Streamlit Cloud](https://streamlit.io/cloud)
