@@ -62,6 +62,6 @@ st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTub
 
 **Step 3**. Deploy to [Streamlit Cloud](https://streamlit.io/cloud). Log-in and click on the **New app** button. Choose the newly generated repo from Steps 1-2. Finally click on the **Deploy!** button. 
 
-After a few moments your new `links page` should be accessible at https://share.streamlit.io/{your-username}/{newly-created-repo}
+After a few moments your new `links page` should be accessible at `https://share.streamlit.io/{your-username}/{newly-created-repo}`
 
-In an upcoming release of Streamlit Cloud, you will be able to customize the URL address to https://{custom-name--here}.streamlitapp.com/ such as the one that I've created at https://chanin.streamlitapp.com/
+In an upcoming release of Streamlit Cloud, you will be able to customize the URL address to `https://{custom-name--here}.streamlitapp.com/` such as the one that I've created at https://chanin.streamlitapp.com/
