@@ -24,17 +24,28 @@ import streamlit as st
 from st_functions import st_button, load_css
 from PIL import Image
 
+st.set_page_config(
+    page_title="Streamlit Links Page",
+    page_icon="./images/streamlit-links-page.png",
+)
+
 load_css()
 
+st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/dataprofessor/links)")
+
 col1, col2, col3 = st.columns(3)
-col2.image(Image.open('dp.png'))
+col1.image(Image.open('./images/streamlit-links-page.png'), use_column_width='always')
+col2.image(Image.open('./images/dp_nobg.png'))
+
 
 st.header('Chanin Nantasenamat, Ph.D.')
-
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Developer Advocate | Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 
 icon_size = 20
 
+st_button('resume','https://drive.google.com/file/#', 'View my Resume', icon_size)
+st_button('github', 'https://github.com/dataprofessor/', 'Follow me on Github', icon_size)
+st_button('telegram', 'https://t.me/your-username', 'Chat with me on Telegram', icon_size)
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
 st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
 st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
@@ -42,22 +53,30 @@ st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter',
 st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
 st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
 st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
+
 ```
 
 There are 3 key information that you can modify:
-1. `st.header(A)` is used for specifying your name in place of **A**.
+
+1. Try to use background-less images in the below two sections for a better look.
+- `col1.image(Image.open('./images/streamlit-links-page.png'), use_column_width='always')`
+- `col2.image(Image.open('./images/dp_nobg.png'))`
+
+
+
+2. `st.header(A)` is used for specifying your name in place of **A**.
 Example:
 ```python
 st.header('Chanin Nantasenamat, Ph.D.')
 ```
 
-2. `st.info(B)` is used for speciying a quick description about who you are, what you do, etc. in place of **B**.
+3. `st.info(B)` is used for speciying a quick description about who you are, what you do, etc. in place of **B**.
 Example:
 ```python
 st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 ```
 
-3. `st.button(D, E, F, G)` is a custom function for creating link buttons where **D** represents the icon to display (use `youtube` if the play button is to be displayed), **E** represents the URL, **F** represents the message to display on the clickable button and **G** represents the icon size.
+4. `st.button(D, E, F, G)` is a custom function for creating link buttons where **D** represents the icon to display (use `youtube` if the play button is to be displayed), **E** represents the URL, **F** represents the message to display on the clickable button and **G** represents the icon size.
 Example:
 ```python
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
@@ -68,3 +87,5 @@ st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTub
 After a few moments your new `links page` should be accessible at `https://share.streamlit.io/{your-username}/{newly-created-repo}`
 
 In an upcoming release of Streamlit Cloud, you will be able to customize the URL address to `https://{custom-name--here}.streamlitapp.com/` such as the one that I've created at https://chanin.streamlitapp.com/
+
+Update:- Now, Streamlit supports customization of the URL address.
