@@ -2,19 +2,28 @@ import streamlit as st
 from st_functions import st_button, load_css
 from PIL import Image
 
+st.set_page_config(
+    page_title="Streamlit Links Page",
+    page_icon="./images/streamlit-links-page.png",
+)
+
 load_css()
 
 st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/dataprofessor/links)")
 
 col1, col2, col3 = st.columns(3)
-col2.image(Image.open('dp.png'))
+col1.image(Image.open('./images/streamlit-links-page.png'), use_column_width='always')
+col2.image(Image.open('./images/dp_nobg.png'))
+
 
 st.header('Chanin Nantasenamat, Ph.D.')
-
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Developer Advocate | Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
 
 icon_size = 20
 
+st_button('resume','https://drive.google.com/file/#', 'View my Resume', icon_size)
+st_button('github', 'https://github.com/dataprofessor/', 'Follow me on Github', icon_size)
+st_button('telegram', 'https://t.me/your-username', 'Chat with me on Telegram', icon_size)
 st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
 st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
 st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
